@@ -16,7 +16,7 @@
   <body>
     <!-- Content goes here -->
     <!-- Logo -->
-    <div class="d-flex">
+    <div class="d-flex justify-content-center">
       <img src="images/carved-rock-logo-black.png" class="logo" />
     </div>
 
@@ -24,7 +24,7 @@
     <div class="d-flex flex-row banner"></div>
 
     <!-- Cards -->
-    <div class="d-flex">
+    <div class="d-flex justify-content-around">
       <div class="d-flex flex-column callOuts">
         <img src="images/shoe_Blue.png" class="d-block" />
         <h3>Climbing</h3>
@@ -43,7 +43,7 @@
     </div>
 
     <!-- Text and Image -->
-    <div class="d-flex">
+    <div class="d-flex align-items-center">
       <div class="w-25">
         <img src="images/shutterstock_422560537.jpg" class="img-fluid" />
       </div>
@@ -58,20 +58,25 @@
           Integer tempor volutpat finibus. Mauris elementum massa nunc, a
           viverra ex pulvinar et. Maecenas consequat nisl tortor, eget interdum
           libero tempus ut. Quisque erat eros, aliquet eget odio non, aliquam
-          finibus mauris. Suspendisse eget velit libero. Morbi bibendum sem vel
-          lorem congue imperdiet. Vestibulum enim metus, ullamcorper et lacinia
-          non, ultricies eu tortor. Aliquam ut sapien eu justo pulvinar sodales
-          non nec ipsum. Proin vitae tortor nisi. Vivamus pellentesque fermentum
-          justo, quis pretium dui ullamcorper non.
+          finibus mauris.
         </p>
         <a href="#" class="btn btn-primary">Learn more</a>
       </div>
     </div>
 
+    <div class="d-flex flex-row-reverse testRow">
+      <div class="testBox align-self-start">Test 1</div>
+      <div class="testBox align-self-center">Test 2</div>
+      <div class="testBox align-self-end">Test 3</div>
+    </div>
+
     <!-- Footer -->
-    <div class="d-flex bottomArea">
+    <div class="d-flex justify-content-around align-items-end bottomArea">
       <div class="w-60">
-        <img src="images/carved-rock-logo-white.png" class="img-fluid h-25" />
+        <img
+          src="images/carved-rock-logo-white.png"
+          class="img-fluid h-25 w-25"
+        />
         <h5>About Us</h5>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -85,12 +90,6 @@
         <div>info@carvedrock.com</div>
       </div>
     </div>
-
-    <!-- <div class="d-flex flex-row-reverse">
-      <div class="testBox">Test 1</div>
-      <div class="testBox">Test 2</div>
-      <div class="testBox">Test 3</div>
-    </div> -->
 
     <!-- Bootstrap Files -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
